@@ -1,5 +1,5 @@
 # Snake-Game
-This snake game is like any ordinary snake game, except it can be played as a singleplayer or multiplayer! For singleplayer, it is pretty self-explanitory; you play by yourself. For multiplayer, you can either play against the computer (not an AI but a simple object finding algorithm) or with one of your friends. Note that to switch the multiplayer mode, you have to physically correct the code (more information in the "Notes about code" section). </br>
+This snake game is like any ordinary snake game, except it can be played as a singleplayer or multiplayer! For singleplayer, it is pretty self-explanitory; you play by yourself. For multiplayer, you can either play against the computer (not an AI but a simple object finding algorithm) or with one of your friends. Note that to switch the multiplayer mode, you have to physically correct the code (more information in the "Notes about code" section). </br> </br>
 **Enjoy!** 😊
 
 ## Instllation (mac)
