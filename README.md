@@ -21,14 +21,72 @@ pip install sys
 pip install random
 ```
 
-## How game works
-This snake game can be played as a singleplayer or multiplayer. For the singleplayer option, you will be playing by yourself. For the multiplayer option, you can either play against the computer (not an AI but simple object finding algorithm) or you can play with another player.
-
 ## Notes about code
-1. To run this game, you need to install 3 python libraries: pygame, sys, random
-2. The code is currently set to play against the computer. If you wish to play with someone else, comment out code from line 646-668 and uncomment code from line 617-644
-3. To change the speed of the snake, change number in line 344
-4. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
+1. The code is currently set to play against the computer. If you wish to play with someone else, comment out code from line 646-668 and uncomment code from line 617-644
+**To switch:**
+Remove comment from this code (Line 617-644)
+```
+                    '''
+                    # MOVE RIGHT PLAYER LEFT
+                    if keys[pygame.K_LEFT]:
+                        move_left_right = True
+                        move_right_right = False
+                        move_up_right = False
+                        move_down_right = False        
+                    
+                    # MOVE RIGHT PLAYER RIGHT
+                    if keys[pygame.K_RIGHT]:
+                        move_left_right = False
+                        move_right_right = True
+                        move_up_right = False
+                        move_down_right = False
+                    
+                    # MOVE RIGHT PLAYER UP
+                    if keys[pygame.K_UP]:
+                        move_left_right = False
+                        move_right_right = False
+                        move_up_right = True
+                        move_down_right = False
+                
+                    # MOVE RIGHT PLAYER DOWN
+                    if keys[pygame.K_DOWN]:
+                        move_left_right = False
+                        move_right_right = False
+                        move_up_right = False
+                        move_down_right = True '''
+```
+And comment out this code (Line 646-668)
+```
+                    if Snake_right.x_snake > Food_right.x_food:
+                        move_left_right = True
+                        move_right_right = False
+                        move_up_right = False
+                        move_down_right = False 
+                        
+                    if Snake_right.x_snake < Food_right.x_food:
+                        move_left_right = False
+                        move_right_right = True
+                        move_up_right = False
+                        move_down_right = False
+                    
+                    if Snake_right.y_snake > Food_right.y_food:
+                        move_left_right = False
+                        move_right_right = False
+                        move_up_right = True
+                        move_down_right = False
+                    
+                    if Snake_right.y_snake < Food_right.y_food:
+                        move_left_right = False
+                        move_right_right = False
+                        move_up_right = False
+                        move_down_right = True    
+```
+2. To change the speed of the snake, change number in line 344
+**To increase speed, set number higher. To decrease speed, set number lower**
+```
+        clock.tick(100) 
+```
+3. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
 
 
 ## How the code works
