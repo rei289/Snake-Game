@@ -1,4 +1,5 @@
 # Snake-Game
+# Instillation
 ## How game works
 This snake game can be played as a singleplayer or multiplayer. For the singleplayer option, you will be playing by yourself. For the multiplayer option, you can either play against the computer (not an AI but simple object finding algorithm) or you can play with another player.
 
@@ -8,8 +9,11 @@ This snake game can be played as a singleplayer or multiplayer. For the singlepl
 3. To change the speed of the snake, change number in line 344
 4. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
 
-Enjoy! 😊
+**Enjoy!** 😊
 
 ## How the code works
 If you are interested in knowing how the code works, there are comments written in the code briefly describing most of the line in the code. However, for a more in-depth description of the code, here is a description of the code:
 
+```
+
+```
