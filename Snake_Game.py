@@ -341,7 +341,7 @@ while end_game == False:
         
     
         clock = pygame.time.Clock()
-        clock.tick(600) 
+        clock.tick(100) 
         # When the game is over
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
