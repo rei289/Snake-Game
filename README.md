@@ -87,7 +87,7 @@ And comment out this code (Line 646-668)
         clock.tick(100) 
 ```
 3. You can change the parameters of the snake and food on line 318-326 </br>
-To change colour, change the RGB value in (255,0,0) for Food class and (100,255,100) for Snake class
+* To change colour, change the RGB value in (255,0,0) for Food class and (100,255,100) for Snake class
 ```
 #SINGLEPLAYER
 Snake = Snake((100, 255, 100), snake_x_starting_coordinate, snake_y_starting_coordinate, vel, vel)
@@ -99,15 +99,15 @@ Snake_left = Player_left((100, 255, 100), snake_x_starting_coordinate, snake_y_s
 Snake_right = Player_right((100, 255, 100), 500, snake_y_starting_coordinate, vel, vel)
 Food_left = Food_left((255, 0, 0), vel, vel, window_width, window_height)
 Food_right = Food_right((255, 0, 0), vel, vel, window_width, window_height)
-
+```
+4. You can also change the parameters of the snake and food on line 303-305
+* To change starting position of the snake, change the value for snake_x_starting_coordinate and snake_y_starting coordinate
+* To change the size of the snake, change the value for vel 
+```
+vel = 10
+snake_x_starting_coordinate = 50
+snake_y_starting_coordinate = 50
 ```
 
-4. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
+5. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
 
-
-## How the code works
-If you are interested in knowing how the code works, there are comments written in the code briefly describing most of the line in the code. However, for a more in-depth description of the code, here is a description of the code:
-
-```
-
-```
