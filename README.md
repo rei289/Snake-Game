@@ -22,7 +22,7 @@ pip install random
 ```
 
 ## Notes about code
-1. The code is currently set to play against the computer. If you wish to play with someone else, comment out code from line 646-668 and uncomment code from line 617-644
+1. The code is currently set to play against the computer. If you wish to play with someone else, comment out code from line 646-668 and uncomment code from line 617-644 </br>
 **To switch:**
 Remove comment from this code (Line 617-644)
 ```
