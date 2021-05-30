@@ -8,3 +8,7 @@ This snake game can be played as a singleplayer or multiplayer. For the singlepl
 3. To change the speed of the snake, change number in line 344
 
 **Enjoy!**
+
+## How the code works
+If you are interested in knowing how the code works, there are comments written in the code briefly describing most of the line in the code. However, for a more in-depth description of the code, here is a description of the code:
+
