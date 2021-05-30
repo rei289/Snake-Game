@@ -6,6 +6,7 @@ This snake game can be played as a singleplayer or multiplayer. For the singlepl
 1. To run this game, you need to install 3 python libraries: pygame, sys, random
 2. The code is currently set to play against the computer. If you wish to play with someone else, comment out code from line 646-668 and uncomment code from line 617-644
 3. To change the speed of the snake, change number in line 344
+4. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
 
 # Enjoy!
 
