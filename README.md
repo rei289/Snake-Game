@@ -81,12 +81,28 @@ And comment out this code (Line 646-668)
                         move_up_right = False
                         move_down_right = True    
 ```
-2. To change the speed of the snake, change number in line 344
+2. To change the speed of the snake, change number in line 344 </br>
 **To increase speed, set number higher. To decrease speed, set number lower**
 ```
         clock.tick(100) 
 ```
-3. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
+3. You can change the parameters of the snake and food on line 318-326 </br>
+To change colour, change the RGB value in (255,0,0) for Food class and (100,255,100) for Snake class
+```
+#SINGLEPLAYER
+Snake = Snake((100, 255, 100), snake_x_starting_coordinate, snake_y_starting_coordinate, vel, vel)
+Food_1 = Food((255, 0, 0), vel, vel)
+Food_2 = Food((255, 0, 0), vel, vel)
+
+#MULTIPLAYER
+Snake_left = Player_left((100, 255, 100), snake_x_starting_coordinate, snake_y_starting_coordinate, vel, vel)
+Snake_right = Player_right((100, 255, 100), 500, snake_y_starting_coordinate, vel, vel)
+Food_left = Food_left((255, 0, 0), vel, vel, window_width, window_height)
+Food_right = Food_right((255, 0, 0), vel, vel, window_width, window_height)
+
+```
+
+4. This version of snake game is not optimized in anyway, rather it focuses on more of the creativity aspect of the game (allowing singleplayer and multiplayer capabilities)
 
 
 ## How the code works
